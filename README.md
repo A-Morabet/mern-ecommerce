@@ -1,2 +1,2 @@
 # mern-ecommerce
-MERN Full-Stack Project
+MERN Full-Stack WIP
