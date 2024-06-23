@@ -22,7 +22,7 @@ const products = [
         category: 'Electronics',
         price: 89.99,
         countInStock: 10,
-        rating: 4.5,
+        rating: 2.5,
         numReviews: 12,
     },
     {
@@ -47,8 +47,8 @@ const products = [
         brand: 'Apple',
         category: 'Electronics',
         price: 89.99,
-        countInStock: 10,
-        rating: 4.5,
+        countInStock: 0,
+        rating: 1,
         numReviews: 12,
     },
     {
