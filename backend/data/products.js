@@ -1,6 +1,6 @@
 const products = [
     {
-        _id: '1',
+        
         name: 'Airpods Wireless Bluetooth Headphones',
         image: '/images/airpods.jpg',
         description:
@@ -13,7 +13,7 @@ const products = [
         numReviews: 12,
     },
     {
-        _id: '2',
+        
         name: 'Alexa Cutting Edge',
         image: '/images/alexa.jpg',
         description:
@@ -26,7 +26,7 @@ const products = [
         numReviews: 12,
     },
     {
-        _id: '3',
+       
         name: 'Super Duper Mouse',
         image: '/images/mouse.jpg',
         description:
@@ -39,7 +39,7 @@ const products = [
         numReviews: 12,
     },
     {
-        _id: '4',
+        
         name: `It's a lie!!!!`,
         image: '/images/playstation.jpg',
         description:
@@ -52,7 +52,7 @@ const products = [
         numReviews: 12,
     },
     {
-        _id: '5',
+        
         name: 'Alexa Cutting Edge',
         image: '/images/alexa.jpg',
         description:
@@ -65,7 +65,7 @@ const products = [
         numReviews: 12,
     },
     {
-        _id: '6',
+        
         name: 'Super Duper Mouse',
         image: '/images/mouse.jpg',
         description:
