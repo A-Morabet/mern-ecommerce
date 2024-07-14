@@ -1,16 +1,31 @@
+import { useNavigate } from 'react-router-dom'
 import { Badge, Navbar, Nav, Container, NavDropdown } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
-import { useSelector } from 'react-redux'
+import { useSelector, useDispatch } from 'react-redux'
 import { FaShoppingCart, FaUser } from 'react-icons/fa';
+import { useLogoutMutation } from '../slices/usersApiSlice.js';
+import { logout } from '../slices/authSlice.js'
 import logo from '../assets/logo.png'
+
 
 function Header() {
 
   const { cartItems } = useSelector((state) => state.cart)
   const { userInfo } = useSelector((state) => state.auth)
 
-  function logoutHandler () {
-    console.log("logged out")
+  const dispatch = useDispatch()
+  const navigate = useNavigate()
+
+  const [logoutApiCall] = useLogoutMutation()
+
+  async function logoutHandler () {
+    try {
+      await logoutApiCall().unwrap()
+      dispatch(logout())
+      navigate('/login')
+    } catch (err) {
+      console.log(err)
+    }
   }
   
 
@@ -34,7 +49,7 @@ function Header() {
                           { cartItems.reduce((a, c) => a + c.qty, 0 )}
                         </Badge>
                       )
-                    } 
+                    }  
                      </Nav.Link>
                     </LinkContainer>
                     { userInfo ? (<NavDropdown title={userInfo.name} id='username'>
