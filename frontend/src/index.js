@@ -21,7 +21,8 @@ import ProfileScreen from './screens/ProfileScreen';
 import reportWebVitals from './reportWebVitals';
 import PrivateRoute from './components/PrivateRoute';
 import AdminRoute from './components/AdminRoute'
-import OrderListScreen from './screens/OrderListScreen.jsx';
+import OrderListScreen from './screens/admin/OrderListScreen';
+import ProductListScreen from './screens/admin/ProductListScreen';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -43,6 +44,7 @@ const router = createBrowserRouter(
 
       <Route path ='' element={<AdminRoute />}>
       <Route path="/admin/orderlist" element={<OrderListScreen />} />
+      <Route path="/admin/productlist" element={<ProductListScreen />} />
       
       </Route>
       </Route>
