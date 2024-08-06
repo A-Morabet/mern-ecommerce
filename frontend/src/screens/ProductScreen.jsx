@@ -7,8 +7,9 @@ import { Row, Col, Image, ListGroup, Card, Button, Form} from 'react-bootstrap'
 import Rating from '../components/Rating'
 import { useGetProductDetailsQuery, useCreateReviewMutation } from '../slices/productsApiSlice.js'
 import { addToCart } from '../slices/cartSlice.js'
-import Loader from '../components/Loader.jsx'
-import Message from '../components/Message.jsx'
+import Loader from '../components/Loader'
+import Message from '../components/Message'
+import Meta from '../components/Meta'
 
 
 
@@ -63,6 +64,7 @@ function ProductScreen() {
 
     { isLoading ? (<Loader/>) : error ? (<Message variant = 'danger'>{ error?.data?.message  || error.error }</Message>) : (
         <>
+        <Meta title={product.name} />
         <Row>
         <Col md={5}>
         <Image src={product.image} alt={product.name} fluid />

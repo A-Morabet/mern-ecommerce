@@ -12,7 +12,7 @@ import { useGetUsersQuery,
 
 function UserListScreen() {
 
-  const { data: users, refetch, isLoading, error } = useGetUsersQuery()
+  const { data: users, refetch, error } = useGetUsersQuery()
 
   const [deleteUser, { isLoading: loadingDelete }] = useDeleteUserMutation()
 
