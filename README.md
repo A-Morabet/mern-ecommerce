@@ -9,9 +9,10 @@
 
 ## Summary
 
-This is a full-featured e-commerce website built with the MERN Stack (MongoDB, Express.js, React, Node.js). It offers a secure and user-friendly shopping experience, featuring:
+This is a full-featured e-commerce website built with the MERN Stack (MongoDB, Express.js, React, Node.js) and React-Redux for efficient state management. It offers a secure and user-friendly shopping experience, featuring:
 
 * Secure Authentication: Login and registration using JWTs, with Bcrypt.js encryption for password security.
+* State Management with React-Redux: Organized state handling for a seamless user experience.
 * Error Handling: Centralized middleware-based error handling for robust functionality.
 * Shopping Cart & Checkout: Users can add products to their cart, proceed to checkout, place orders, and complete payments.
 * Order Tracking: Users can monitor the status of their orders via their profile page.
@@ -23,4 +24,4 @@ This is a full-featured e-commerce website built with the MERN Stack (MongoDB, E
 
 Amine Morabet - hey@aminemorabet.com
 
-Project Link: [https://A-Morabet.github.io/react-tensorflow-website](https://A-Morabet.github.io/react-tensorflow-website)
+Project Link: [[https://A-Morabet.github.io/react-tensorflow-website](https://greenasaur.onrender.com/)]
