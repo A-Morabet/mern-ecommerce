@@ -1,3 +1,21 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('../../../public/fonts/Roboto-Regular.woff2') format('woff2') ;
+  src: url('../../../public/fonts/Roboto-Regular.woff') format('woff') ;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Playwrite';
+  src: url('../../../public/fonts/PlaywriteGBS-Regular.woff2') format('woff2') ;
+  src: url('../../../public/fonts/PlaywriteGBS-Regular.woff') format('woff') ;
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
 main {
   min-height: 80vh;
 }
@@ -34,9 +52,10 @@ table th {
 
 .review h2 {
   font-size: 24px;
-  background: #f4f4f4;
+  background: #28B463;
   padding: 10px;
   border: 1px solid #ddd;
+  color: whitesmoke;
 }
 
 .review button {
@@ -49,5 +68,5 @@ table th {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(68, 162, 250, 0.5);
 }

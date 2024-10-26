@@ -60,7 +60,7 @@ function ProductScreen() {
 
   return (
     <>
-    <Link className='btn btn-light my-3' to="/" >Go Back</Link>
+    <Link className='btn btn-blue my-3' to="/" >Go Back</Link>
 
     { isLoading ? (<Loader/>) : error ? (<Message variant = 'danger'>{ error?.data?.message  || error.error }</Message>) : (
         <>
@@ -140,7 +140,7 @@ function ProductScreen() {
     <Row className='review'>
         <Col md={6}>
         <h2>Reviews</h2>
-        {product.reviews.length === 0 && <Message>No Reviews</Message>}
+        {product.reviews.length === 0 && <Message>Be the first to write a Review!</Message>}
         <ListGroup variant='flush'>
             { product.reviews.map(review => (
                 <ListGroup.Item key={review._id}>

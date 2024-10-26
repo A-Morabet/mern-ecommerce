@@ -11,7 +11,7 @@ function ProductCarousel() {
   return (
     isLoading? <Loader /> : error ? <Message variant = 'danger'>{error}</Message>
     : (
-        <Carousel pause='hover' className='bg-primary mb-4'>
+        <Carousel pause='hover' className='carousel-bg m-auto carousel-lg mb-4 shadow-custom'>
             {products.map((product) => (
                 <Carousel.Item key={product._id}>
                     <Link to={`/product/${product._id}`}>

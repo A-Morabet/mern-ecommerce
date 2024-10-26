@@ -82,7 +82,7 @@ function ProductListScreen() {
                         <td>{product.brand}</td>
                         <td>
                         <LinkContainer to = {`/admin/product/${product._id}/edit`}>
-                        <Button variant='light' className='btn-sm mx-2'>
+                        <Button variant='' className='btn-sm btn-blue2 mx-2'>
                             <FaEdit />
                         </Button>
                         </LinkContainer>

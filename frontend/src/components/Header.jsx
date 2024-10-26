@@ -36,8 +36,8 @@ function Header() {
             <Container>
               <LinkContainer to='/'>
                 <Navbar.Brand>
-                <img src={logo} alt="ECommerce logo" />
-                 ECommerce </Navbar.Brand>
+                <img src={logo} alt="ECommerce logo" className="px-2" />
+                 Greenasaur </Navbar.Brand>
                  </LinkContainer>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">

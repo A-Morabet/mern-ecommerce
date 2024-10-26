@@ -38,7 +38,7 @@ function PaymentScreen() {
                 <Col>
                 <Form.Check 
                 type='radio' 
-                className='my-2' 
+                className='my-2 py-2' 
                 label='PayPal or Credit Card'
                 id='Paypal'
                 name='paymentMethod'
