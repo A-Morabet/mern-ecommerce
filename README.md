@@ -24,4 +24,4 @@ This is a full-featured e-commerce website built with the MERN Stack (MongoDB, E
 
 Amine Morabet - hey@aminemorabet.com
 
-Project Link: [[https://A-Morabet.github.io/react-tensorflow-website](https://greenasaur.onrender.com/)]
+Project Link: [https://greenasaur.onrender.com/](https://greenasaur.onrender.com/)
