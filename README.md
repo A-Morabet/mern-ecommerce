@@ -17,7 +17,7 @@ This is a full-featured e-commerce website built with the MERN Stack (MongoDB, E
 * Shopping Cart & Checkout: Users can add products to their cart, proceed to checkout, place orders, and complete payments.
 * Order Tracking: Users can monitor the status of their orders via their profile page.
 * Admin Dashboard: Administrators can add, edit, and remove products, manage all site orders, and handle user accounts.
-* Clear UI: Designed for easy navigation and a clean product display.
+* Clear UI: Designed for easy navigation and a clean product display. Styled with Bootstrap.
 
 
 ## Contact
