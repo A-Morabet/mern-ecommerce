@@ -5,6 +5,7 @@ import { PayPalScriptProvider } from '@paypal/react-paypal-js'
 import { HelmetProvider } from 'react-helmet-async'
 import { Provider } from 'react-redux';
 import store from './store.js';
+import axios from 'axios';
 
 import './assets/styles/bootstrap.custom.css'
 import './assets/styles/index.css';
