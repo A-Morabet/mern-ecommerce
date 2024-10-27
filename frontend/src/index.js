@@ -79,7 +79,7 @@ root.render(
 reportWebVitals();
 
 const url = `https://greenasaur.onrender.com//`; // Replace with your Render URL
-const interval = 600000; // Interval in milliseconds (30 seconds)
+const interval = 30000; // Interval in milliseconds (30 seconds)
 
 //Reloader Function
 function reloadWebsite() {
