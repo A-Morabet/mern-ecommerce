@@ -37,8 +37,4 @@ This is a full-featured e-commerce website built with the MERN Stack (MongoDB, E
 
 Amine Morabet - hey@aminemorabet.com
 
-<<<<<<< HEAD
-Project Link: [https://greenasaur.onrender.com/]
-=======
 Project Link: [https://greenasaur.onrender.com/](https://greenasaur.onrender.com/)
->>>>>>> 8d6c75b4c5e212ac26b40aa90b895b1ca2fee05d
