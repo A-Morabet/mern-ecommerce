@@ -30,13 +30,13 @@ This is a full-featured e-commerce website built with the MERN Stack (MongoDB, E
    npm install
    ```
 
-3. Make sure to set up the environment variables in root and frontend folders using the provided **example.env** and **example2.env** files, explanations can be found inside them.
+3. Make sure to set up the environment variables in root and frontend folders using the provided "example.env" and "example2.env" files, explanations can be found inside them.
 
-4. After setting up the variables, use **npm run data:import** to seed the newly-created MongoDB (command is run from the root folder).
+4. After setting up the variables, use "npm run data:import" to seed the newly-created MongoDB (command is run from the root folder).
     ```sh
     npm run data:import
     ```
-5. Once done run command **npm run dev** on root folder which runs both server and client and it should work.
+5. Once done run command "npm run dev" on root folder which runs both server and client and it should work.
     ```sh
     npm run dev
     ```
