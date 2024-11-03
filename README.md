@@ -19,39 +19,28 @@ This is a full-featured e-commerce website built with the MERN Stack (MongoDB, E
 * Admin Dashboard: Administrators can add, edit, and remove products, manage all site orders, and handle user accounts.
 * Clear UI: Designed for easy navigation and a clean product display. Styled with Bootstrap.
 
-# Instructions
-
-### Prerequisites
-
-1. Launching npm install command.
-   ```sh
-   npm install
-   ```
-
-### Installation
-
-### Installation
+## Installation
 
 1. Clone the repo.
    ```sh
-   git clone https://github.com/A-Morabet/react-tensorflow-website
+   git clone https://github.com/A-Morabet/mern-ecommerce
    ```
 2. Open project and run "npm install" on source code editor.
    ```sh
    npm install
    ```
 
-3. Make sure to set up the environment variables in root and frontend folders using the provided example.env and example2.env files, explanations can be found inside them.
+3. Make sure to set up the environment variables in root and frontend folders using the provided **example.env** and **example2.env** files, explanations can be found inside them.
 
-4. After setting up the variables, use "npm run data:import" to seed the newly-created MongoDB (command is run from the root folder).
+4. After setting up the variables, use **npm run data:import** to seed the newly-created MongoDB (command is run from the root folder).
     ```sh
     npm run data:import
     ```
-5. Once done run command "npm run dev" on root folder which runs both server and client and it should work.
+5. Once done run command **npm run dev** on root folder which runs both server and client and it should work.
     ```sh
     npm run dev
     ```
-* Command List (package.json): 
+* Command List (package.json in root folder): 
 
 ```sh
     "start": "node backend/server.js",
