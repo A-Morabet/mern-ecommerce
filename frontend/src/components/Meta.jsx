@@ -12,9 +12,9 @@ function Meta({ title, description, keywords }) {
 }
 
 Meta.defaultProps = {
-    title: 'Welcome to Proshop',
-    description: 'We sell the best products for cheap',
-    keywords: 'electronics, buy electronics, cheap electronics',
+    title: 'Welcome to Greenosaur',
+    description: 'Jurassic Clothing. Everywhere',
+    keywords: 'clothing, buy dinosaur clothing, cheap dinosaur clothing',
 }
 
 export default Meta
