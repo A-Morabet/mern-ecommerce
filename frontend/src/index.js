@@ -5,6 +5,7 @@ import { PayPalScriptProvider } from '@paypal/react-paypal-js'
 import { HelmetProvider } from 'react-helmet-async'
 import { Provider } from 'react-redux';
 import store from './store.js';
+import axios from 'axios';
 
 import './assets/styles/bootstrap.custom.css'
 import './assets/styles/index.css';
@@ -77,3 +78,19 @@ root.render(
 
 
 reportWebVitals();
+
+const url = `https://greenasaur.onrender.com//`; // Replace with your Render URL
+const interval = 30000; // Interval in milliseconds (30 seconds)
+
+//Reloader Function
+function reloadWebsite() {
+  axios.get(url)
+    .then(response => {
+      console.log(`Reloaded at ${new Date().toISOString()}: Status Code ${response.status}`);
+    })
+    .catch(error => {
+      console.error(`Error reloading at ${new Date().toISOString()}:`, error.message);
+    });
+}
+
+setInterval(reloadWebsite, interval);
