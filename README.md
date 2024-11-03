@@ -21,10 +21,39 @@ This is a full-featured e-commerce website built with the MERN Stack (MongoDB, E
 
 # Instructions
 
-* Make sure to set up the environment variables in root and frontend folder using the provided example.env and example2.env files, explanations can be found inside them.
-* After setting up the variables, use "npm run data:import" to seed the newly-created MongoDB (command is run from the root folder).
-* Once done run command "npm run dev" which runs both server and client and it should work.
-* Command List: 
+### Prerequisites
+
+1. Launching npm install command.
+   ```sh
+   npm install
+   ```
+
+### Installation
+
+### Installation
+
+1. Clone the repo.
+   ```sh
+   git clone https://github.com/A-Morabet/react-tensorflow-website
+   ```
+2. Open project and run "npm install" on source code editor.
+   ```sh
+   npm install
+   ```
+
+3. Make sure to set up the environment variables in root and frontend folders using the provided example.env and example2.env files, explanations can be found inside them.
+
+4. After setting up the variables, use "npm run data:import" to seed the newly-created MongoDB (command is run from the root folder).
+    ```sh
+    npm run data:import
+    ```
+5. Once done run command "npm run dev" on root folder which runs both server and client and it should work.
+    ```sh
+    npm run dev
+    ```
+* Command List (package.json): 
+
+```sh
     "start": "node backend/server.js",
     "server": "nodemon backend/server.js",
     "client": "npm start --prefix frontend",
@@ -32,9 +61,10 @@ This is a full-featured e-commerce website built with the MERN Stack (MongoDB, E
     "data:import": "node backend/seeder.js",
     "data:destroy": "node backend/seeder.js -d",
     "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
+```
 
 ## Contact
 
 Amine Morabet - hey@aminemorabet.com
 
-Project Link: [https://greenasaur.onrender.com/](https://greenasaur.onrender.com/)
+Project Link: [https://greenasaur.onrender.com/]
