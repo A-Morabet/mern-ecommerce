@@ -1,10 +1,10 @@
 const products = [
     {
         
-        name: 'Airpods Wireless Bluetooth Headphones',
-        image: '/images/airpods.jpg',
+        name: 'Phone',
+        image: '/images/phone.png',
         description:
-            'Bluetooth BLABLA BLAB ALB BAAL aBLA ALB ABLAB ABLA LAB ABLAB ALB AALB ABLAB ALBA, ABLABLABLALBALBALBALB, ABLALBALB ABLALB aLBA bALBALBA aBL aBLABA aBLaBALBA',
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
         brand: 'Apple',
         category: 'Electronics',
         price: 89.99,
@@ -14,11 +14,11 @@ const products = [
     },
     {
         
-        name: 'Alexa Cutting Edge',
-        image: '/images/alexa.jpg',
+        name: 'Microphone USB',
+        image: '/images/microphone.png',
         description:
-            'Bluetooth BLABLA BLAB ALB BAAL aBLA ALB ABLAB ABLA LAB ABLAB ALB AALB ABLAB ALBA, ABLABLABLALBALBALBALB, ABLALBALB ABLALB aLBA bALBALBA aBL aBLABA aBLaBALBA',
-        brand: 'Apple',
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        brand: 'Yeti',
         category: 'Electronics',
         price: 89.99,
         countInStock: 10,
@@ -27,10 +27,10 @@ const products = [
     },
     {
        
-        name: 'Super Duper Mouse',
-        image: '/images/mouse.jpg',
+        name: 'Phone',
+        image: '/images/phone.png',
         description:
-            'Bluetooth BLABLA BLAB ALB BAAL aBLA ALB ABLAB ABLA LAB ABLAB ALB AALB ABLAB ALBA, ABLABLABLALBALBALBALB, ABLALBALB ABLALB aLBA bALBALBA aBL aBLABA aBLaBALBA',
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
         brand: 'Apple',
         category: 'Electronics',
         price: 89.99,
@@ -40,12 +40,12 @@ const products = [
     },
     {
         
-        name: `It's a lie!!!!`,
-        image: '/images/playstation.jpg',
+        name: `Rubik Cube`,
+        image: '/images/cube.png',
         description:
-            'Bluetooth BLABLA BLAB ALB BAAL aBLA ALB ABLAB ABLA LAB ABLAB ALB AALB ABLAB ALBA, ABLABLABLALBALBALBALB, ABLALBALB ABLALB aLBA bALBALBA aBL aBLABA aBLaBALBA',
-        brand: 'Apple',
-        category: 'Electronics',
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        brand: 'Yuapei',
+        category: 'Toys',
         price: 89.99,
         countInStock: 0,
         rating: 1,
@@ -53,10 +53,10 @@ const products = [
     },
     {
         
-        name: 'Alexa Cutting Edge',
-        image: '/images/alexa.jpg',
+        name: 'Microphone USB',
+        image: '/images/microphone.png',
         description:
-            'Bluetooth BLABLA BLAB ALB BAAL aBLA ALB ABLAB ABLA LAB ABLAB ALB AALB ABLAB ALBA, ABLABLABLALBALBALBALB, ABLALBALB ABLALB aLBA bALBALBA aBL aBLABA aBLaBALBA',
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
         brand: 'Apple',
         category: 'Electronics',
         price: 89.99,
@@ -66,10 +66,10 @@ const products = [
     },
     {
         
-        name: 'Super Duper Mouse',
-        image: '/images/mouse.jpg',
+        name: 'Phone',
+        image: '/images/phone.png',
         description:
-            'Bluetooth BLABLA BLAB ALB BAAL aBLA ALB ABLAB ABLA LAB ABLAB ALB AALB ABLAB ALBA, ABLABLABLALBALBALBALB, ABLALBALB ABLALB aLBA bALBALBA aBL aBLABA aBLaBALBA',
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
         brand: 'Apple',
         category: 'Electronics',
         price: 89.99,
